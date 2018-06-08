@@ -1,0 +1,7 @@
+#BNF+IAT 1.0 UTF-8;
+!grammar call;
+!slot <callPre>;
+!start <callStart>;
+<callStart>:[<callPre>];
+<callPre>:左|右|趴下|跳起|蹲下|跑|停|向左|向右|前进|后退;
+
